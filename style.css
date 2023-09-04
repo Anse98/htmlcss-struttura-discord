@@ -46,9 +46,8 @@ header .col-6 {
 
 /* MAIN */
 
-.section1, .section2-4, .section3, .section5{
+.section1, .section2-4, .section3, .section5, .section6{
   display: flex;
-  min-height: 400px;
   justify-content: center;
   align-items: center;
   padding: 50px;
@@ -144,6 +143,46 @@ header .col-6 {
   padding: 500px;
   background-color: #228B22;
 }
+
+/* SECTION 6 */
+
+.section6 {
+  background-color: #23272A;
+}
+
+.section6 .container {
+  width:1200px;
+}
+
+.section6 .row {
+  display: flex;
+  border: solid 1px black;
+  
+}
+
+.section6 .col-4 {
+  flex-basis: calc(100% / 12 *4);
+  border: solid 1px black;
+  background-color: #F08080;
+  
+}
+
+.section6 .col-2 {
+  flex-basis: calc(100% / 12 *2);
+  border: solid 1px black;
+  background-color: #20B2AA;
+  min-height: 600px;
+}
+
+/* FINE MAIN */
+
+
+
+
+
+
+
+
 
 
 
