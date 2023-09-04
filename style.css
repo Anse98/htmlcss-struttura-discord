@@ -5,25 +5,32 @@
 }
 
 header {
-  min-height:100px;
+  
   background-color: #ADD8E6;
 }
 
 .container{
-  display: flex;
   border: solid 1px black;
-  justify-content: center;
-  align-items: center;
-  min-height: 100px;
+  padding: 50px;
 }
 
 .row{
   display: flex;
   border:solid 1px black;
+  padding: 5px;
+  background-color: #DAA520;
 }
 
-.col{
+.col-3{
   flex-basis:calc(100% / 3);
+  border:solid 1px black;
+  padding: 5px;
+}
+
+.col-6 {
+  flex-basis: calc(100% / 2);
+  border:solid 1px black;
+  padding: 5px;
 }
 
 /* DEBUG */
