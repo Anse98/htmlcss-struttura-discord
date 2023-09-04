@@ -24,13 +24,13 @@ header .row{
   margin: auto;
 }
 
-.col-3{
+header .col-3{
   flex-basis:calc(100% / 3);
   border:solid 1px black;
   padding: 5px;
 }
 
-.col-6 {
+header .col-6 {
   flex-basis: calc(100% / 2);
   border:solid 1px black;
   padding: 5px;
@@ -46,13 +46,12 @@ header .row{
 
 /* MAIN */
 
-/* Section 1 */
+/* SECTION 1 */
 
 .section1 .container{
   display: flex;
   min-height: 400px;
   background-color: blue;
-  color: white;
   justify-content: center;
   align-items: center;
   padding: 50px;
@@ -71,9 +70,35 @@ header .row{
   background-color: #EE82EE;
 }
 
-/* Section 2 */
+/* SECTION 2 */
 
+.section2 .container {
+  display: flex;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  padding: 50px;
+}
 
+.section2 .row {
+  display: flex;
+  width: 1200px;
+  border: solid 1px black;
+}
+
+.section2 .col-4 {
+  flex-basis:calc(100% / 3);
+  background-color: #FFC0CB;
+  padding: 200px;
+}
+
+.section2 .col-8 {
+  flex-basis: 100%;
+  background-color: #1E90FF;
+}
+
+/* SECTION 3 */
 
 
 
