@@ -46,7 +46,7 @@ header .col-6 {
 
 /* MAIN */
 
-.section1, .section2-4, .section3, .section5, .section6{
+.section1, .section2-4, .section3, .section5, .section6, .section-footer{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,8 +156,7 @@ header .col-6 {
 
 .section6 .row {
   display: flex;
-  border: solid 1px black;
-  
+  border: solid 1px black;  
 }
 
 .section6 .col-4 {
@@ -175,6 +174,45 @@ header .col-6 {
 }
 
 /* FINE MAIN */
+
+/* FOOTER */
+
+footer {
+  border-top: white 2px solid;
+  background-color: #23272A;
+}
+
+.section-footer {
+  padding: 0;
+  padding-top: 20px;
+}
+
+.section-footer .container {
+  width: 1200px;
+  background-color: #7FFFD4;
+}
+
+.section-footer .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.section-footer .col {
+  border: solid 1px black;
+  padding: 10px;
+  background-color: #FFB6C1;
+}
+
+/* FINE FOOTER */
+
+
+
+
+
+
+
+
 
 
 
