@@ -1,6 +1,39 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  min-height:100px;
+  background-color: #ADD8E6;
+}
+
+.container{
+  display: flex;
+  border: solid 1px black;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.row{
+  display: flex;
+  border:solid 1px black;
+}
+
+.col{
+  flex-basis:calc(100% / 3);
+}
+
+/* DEBUG */
+
+.debug header {
+  border: solid 1px black;
+}
+
+
+
+
+
 
