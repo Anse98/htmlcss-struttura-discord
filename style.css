@@ -4,21 +4,24 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
 header {
   
   background-color: #ADD8E6;
 }
 
-.container{
+header .container{
   border: solid 1px black;
   padding: 50px;
 }
 
-.row{
+header .row{
   display: flex;
   border:solid 1px black;
   padding: 5px;
   background-color: #DAA520;
+  width: 1200px;
+  margin: auto;
 }
 
 .col-3{
@@ -33,11 +36,45 @@ header {
   padding: 5px;
 }
 
+/* FINE HEADER */
+
 /* DEBUG */
 
 .debug header {
   border: solid 1px black;
 }
+
+/* MAIN */
+
+/* Section 1 */
+
+.section1 .container{
+  display: flex;
+  min-height: 400px;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.section1 .row{
+  display: flex;
+  width: 1000px;
+  padding: 100px;
+}
+
+.section1 .col {
+  border: solid 1px black;
+  padding: 150px;
+  flex-basis: 100%;
+  background-color: #EE82EE;
+}
+
+/* Section 2 */
+
+
+
 
 
 
