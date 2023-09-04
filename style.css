@@ -46,7 +46,7 @@ header .col-6 {
 
 /* MAIN */
 
-.section1, .section2-4, .section3{
+.section1, .section2-4, .section3, .section5{
   display: flex;
   min-height: 400px;
   justify-content: center;
@@ -101,8 +101,7 @@ header .col-6 {
 /* SECTION 3 */
 
 .section3 {
-  background-color: #D3D3D3;
-  
+  background-color: #D3D3D3; 
 }
 
 .section3 .container {
@@ -124,6 +123,28 @@ header .col-6 {
   flex-basis:calc(100% / 12 * 8);
   background-color: #FFC0CB;
 }
+
+/* SECTION 4 */
+
+.section5 {
+  background-color: #D3D3D3; 
+}
+
+.section5 .container {
+  width:1200px;
+}
+
+.section5 .row {
+  display: flex;
+  border: solid 1px black;
+}
+
+.section5 .col{
+  flex-basis: 100%;
+  padding: 500px;
+  background-color: #228B22;
+}
+
 
 
 
