@@ -46,15 +46,18 @@ header .col-6 {
 
 /* MAIN */
 
-/* SECTION 1 */
-
-.section1 .container{
+.section1, .section2, .section3 .container{
   display: flex;
   min-height: 400px;
-  background-color: blue;
   justify-content: center;
   align-items: center;
   padding: 50px;
+}
+
+/* SECTION 1 */
+
+.section1 {
+ background-color: blue;
 }
 
 .section1 .row{
@@ -71,15 +74,6 @@ header .col-6 {
 }
 
 /* SECTION 2 */
-
-.section2 .container {
-  display: flex;
-  min-height: 400px;
-  justify-content: center;
-  align-items: center;
-  border: solid 1px black;
-  padding: 50px;
-}
 
 .section2 .row {
   display: flex;
@@ -100,8 +94,26 @@ header .col-6 {
 
 /* SECTION 3 */
 
+.section3 {
+  background-color: #D3D3D3;
+}
 
+.section3 .row {
+  display: flex;
+  width: 1200px;
+  border: solid 1px black;
+}
 
+.section3 .col-4 {
+  flex-basis:calc(100% / 3); 
+  background-color: #1E90FF;
+  padding: 200px;
+}
+
+.section3 .col-8 {
+  flex-basis: 100%;
+  background-color: #FFC0CB;
+}
 
 
 
